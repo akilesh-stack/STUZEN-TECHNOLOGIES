@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUZEN TECHNOLOGIES | Enterprise Digital Engineering</title>
+  <meta name="description" content="Stuzen Technologies is an enterprise technology provider delivering high-impact website development, custom software engineering, and intelligent business automation. Learn. Build. Innovate.">
+  <meta name="theme-color" content="#080D18">
+
+  <!-- Favicon using official Stuzen ribbon logo -->
+  <link rel="icon" type="image/png" href="assets/logo/stuzen-logo.png">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+
+  <!-- Custom Stylesheet (Pure CSS3, zero external runtime framework) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       1. HEADER / NAVIGATION
+       ======================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand" aria-label="STUZEN TECHNOLOGIES Home">
+        <img src="assets/logo/stuzen-logo.png" alt="STUZEN Logo" class="brand-logo-img">
+        <span class="brand-text">STUZEN <span class="brand-badge">TECH</span></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active" aria-current="page">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#process" class="nav-link">Our Process</a>
+        <a href="#why-us" class="nav-link">Why Choose Us</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary" style="padding: 0.625rem 1.25rem;">
+          <span>Get In Touch</span>
+        </a>
+        <div class="user-avatar-btn" aria-label="User Account" title="Enterprise Client Access">
+          <span class="material-symbols-outlined" style="font-size: 19px;">person</span>
+        </div>
+        <button class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" type="button">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <nav class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <a href="#home" class="mobile-nav-link active">Home <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></a>
+    <a href="#about" class="mobile-nav-link">About Us <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></a>
+    <a href="#services" class="mobile-nav-link">Services <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></a>
+    <a href="#process" class="mobile-nav-link">Our Process <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></a>
+    <a href="#why-us" class="mobile-nav-link">Why Choose Us <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></a>
+    <a href="#contact" class="mobile-nav-link">Contact <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></a>
+    <a href="#contact" class="btn btn-primary mobile-drawer-cta">
+      <span>Get In Touch</span>
+      <span class="material-symbols-outlined btn-icon">arrow_forward</span>
+    </a>
+  </nav>
+
+  <main>
+    <!-- ======================================================================
+         2. HERO SECTION
+         ====================================================================== -->
+    <section class="hero-section" id="home">
+      <!-- Ambient Back-Glows -->
+      <div class="ambient-glow glow-blue" aria-hidden="true"></div>
+      <div class="ambient-glow glow-cyan" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Hero Content -->
+          <div class="hero-content">
+            <div class="hero-badge-pill">
+              <span class="pulse-dot"></span>
+              <span class="hero-badge-text">Enterprise Digital Engineering</span>
+            </div>
+
+            <h1 class="heading-display hero-title">
+              We Build Digital Solutions That Move Businesses Forward.
+            </h1>
+
+            <p class="body-lead hero-description">
+              Empowering modern organizations through innovative website development, scalable custom software systems, and intelligent workflow automation designed for real-world reliability.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#services" class="btn btn-primary">
+                <span>Explore Our Services</span>
+                <span class="material-symbols-outlined btn-icon btn-icon-down">arrow_downward</span>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Contact Us</span>
+                <span class="material-symbols-outlined btn-icon">arrow_forward</span>
+              </a>
+            </div>
+
+            <!-- Trust Capabilities Bar -->
+            <div class="trust-bar">
+              <div class="trust-item">
+                <span class="material-symbols-outlined trust-icon">domain</span>
+                <span class="trust-label">Custom Architecture</span>
+              </div>
+              <div class="trust-item">
+                <span class="material-symbols-outlined trust-icon">layers</span>
+                <span class="trust-label">Full-Stack Scalability</span>
+              </div>
+              <div class="trust-item">
+                <span class="material-symbols-outlined trust-icon">security</span>
+                <span class="trust-label">Enterprise Security</span>
+              </div>
+              <div class="trust-item">
+                <span class="material-symbols-outlined trust-icon">verified</span>
+                <span class="trust-label">End-to-End Delivery</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Hero Content: Architecture Console (Visual UI Demonstration) -->
+          <div class="terminal-wrapper">
+            <div class="terminal-card">
+              <!-- Terminal Header -->
+              <div class="terminal-header">
+                <div class="terminal-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                  <span class="terminal-title">stuzen-core-engine/main.sys</span>
+                </div>
+                <div class="terminal-status" title="Visual UI Architecture Flow">
+                  <span class="status-beacon"></span>
+                  <span>SYSTEM_HEALTHY</span>
+                </div>
+              </div>
+
+              <!-- Blueprint Blueprint Box -->
+              <div class="terminal-blueprint">
+                <!-- 3 Pipeline Nodes -->
+                <div class="pipeline-nodes">
+                  <div class="node-box" role="button" tabindex="0" title="Click to view node state">
+                    <span class="material-symbols-outlined node-icon">devices</span>
+                    <span class="node-title">Client Viewports</span>
+                    <span class="node-sub">Next.js / Responsive</span>
+                  </div>
+                  <div class="node-box highlighted" role="button" tabindex="0" title="Click to view node state">
+                    <span class="material-symbols-outlined node-icon">hub</span>
+                    <span class="node-title">API Gateway</span>
+                    <span class="node-sub" style="color: var(--color-secondary);">Zero-Trust Node</span>
+                  </div>
+                  <div class="node-box" role="button" tabindex="0" title="Click to view node state">
+                    <span class="material-symbols-outlined node-icon">sync_alt</span>
+                    <span class="node-title">Automation</span>
+                    <span class="node-sub">Orchestrated Jobs</span>
+                  </div>
+                </div>
+
+                <!-- Telemetry Sparkline Curve -->
+                <div class="telemetry-box">
+                  <div class="telemetry-meta">
+                    <span class="telemetry-name">Build Telemetry</span>
+                    <span class="telemetry-stat">200 OK • latency 14ms</span>
+                  </div>
+                  <div class="telemetry-svg">
+                    <svg class="telemetry-svg" fill="none" preserveAspectRatio="none" viewBox="0 0 360 60">
+                      <defs>
+                        <linearGradient id="telemetryGradient" x1="0" x2="0" y1="0" y2="1">
+                          <stop offset="0%" stop-color="#00c8e8" stop-opacity="0.35"></stop>
+                          <stop offset="100%" stop-color="#087bff" stop-opacity="0"></stop>
+                        </linearGradient>
+                      </defs>
+                      <path d="M0,45 Q30,20 60,35 T120,15 T180,40 T240,25 T300,10 L360,18" fill="none" stroke="#4b8eff" stroke-width="2.2"></path>
+                      <path d="M0,45 Q30,20 60,35 T120,15 T180,40 T240,25 T300,10 L360,18 L360,60 L0,60 Z" fill="url(#telemetryGradient)"></path>
+                    </svg>
+                  </div>
+                </div>
+
+                <!-- Execution Status Logs -->
+                <div class="console-logs">
+                  <div class="log-line">
+                    <span class="log-msg">&gt; verifying module deployment</span>
+                    <span class="log-tag success">[SUCCESS]</span>
+                  </div>
+                  <div class="log-line">
+                    <span class="log-msg">&gt; web frontend bundle generated</span>
+                    <span class="log-tag ready">[READY]</span>
+                  </div>
+                  <div class="log-line">
+                    <span class="log-msg">&gt; automated workflow pipelines</span>
+                    <span class="log-tag active">[ACTIVE]</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Terminal Footer Tag -->
+              <div class="terminal-footer">
+                <span class="footer-stack-name">STUZEN PRODUCTION STACK</span>
+                <span class="footer-stack-version">v2.4.0-stable</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. ABOUT US SECTION
+         ====================================================================== -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="tag-label">ABOUT STUZEN TECHNOLOGIES</span>
+          <h2 class="heading-lg">Technology That Turns Ideas Into Reality.</h2>
+          <p class="body-lead">
+            Stuzen Technologies is an enterprise technology provider delivering high-impact web development, custom software engineering, and business automation. We operate at the intersection of business strategy and software architecture, building durable digital infrastructure that solves real operational bottlenecks.
+          </p>
+        </div>
+
+        <!-- The 3 Pillars (Learn. Build. Innovate.) -->
+        <div class="pillars-grid">
+          <!-- Pillar 1: Learn -->
+          <div class="pillar-card reveal-item">
+            <div>
+              <div class="pillar-top">
+                <div class="pillar-icon-box">
+                  <span class="material-symbols-outlined" style="font-size: 26px;">search</span>
+                </div>
+                <span class="pillar-num">PILLAR // 01</span>
+              </div>
+              <h3 class="heading-md pillar-title">Learn.</h3>
+              <p class="body-normal pillar-body">
+                Deep immersion into client business domains, workflow nuances, user interactions, and technical requirements before writing a single line of production code.
+              </p>
+            </div>
+            <div class="pillar-deliverable">
+              <span class="material-symbols-outlined deliverable-icon">check_circle</span>
+              <span>Requirement Clarity &amp; Domain Modeling</span>
+            </div>
+          </div>
+
+          <!-- Pillar 2: Build -->
+          <div class="pillar-card reveal-item">
+            <div>
+              <div class="pillar-top">
+                <div class="pillar-icon-box">
+                  <span class="material-symbols-outlined" style="font-size: 26px;">terminal</span>
+                </div>
+                <span class="pillar-num">PILLAR // 02</span>
+              </div>
+              <h3 class="heading-md pillar-title">Build.</h3>
+              <p class="body-normal pillar-body">
+                Engineering with strict architectural rigor. We employ clean coding principles, modern frameworks, robust security standards, and comprehensive automated testing.
+              </p>
+            </div>
+            <div class="pillar-deliverable">
+              <span class="material-symbols-outlined deliverable-icon">check_circle</span>
+              <span>Production-Ready Code Standards</span>
+            </div>
+          </div>
+
+          <!-- Pillar 3: Innovate -->
+          <div class="pillar-card reveal-item">
+            <div>
+              <div class="pillar-top">
+                <div class="pillar-icon-box">
+                  <span class="material-symbols-outlined" style="font-size: 26px;">rocket_launch</span>
+                </div>
+                <span class="pillar-num">PILLAR // 03</span>
+              </div>
+              <h3 class="heading-md pillar-title">Innovate.</h3>
+              <p class="body-normal pillar-body">
+                Unlocking business leverage through intelligent automations, optimized workflows, and modern cloud topologies that evolve alongside your commercial scale.
+              </p>
+            </div>
+            <div class="pillar-deliverable">
+              <span class="material-symbols-outlined deliverable-icon">check_circle</span>
+              <span>Continuous Value Realization</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lower Feature Matrix Bar -->
+        <div class="feature-matrix-bar reveal-item">
+          <div class="feature-matrix-grid">
+            <div class="feature-col">
+              <div class="feature-col-header">
+                <span class="material-symbols-outlined feature-col-icon">code</span>
+                <h4 class="heading-sm">Precision Code Craft</h4>
+              </div>
+              <p class="body-sm">
+                Every codebase is engineered for maintainability, documentation clarity, clean version control, and effortless team handoffs.
+              </p>
+            </div>
+
+            <div class="feature-col">
+              <div class="feature-col-header">
+                <span class="material-symbols-outlined feature-col-icon">architecture</span>
+                <h4 class="heading-sm">Modern Architecture</h4>
+              </div>
+              <p class="body-sm">
+                Built on modular foundations, modern API contracts, and high-concurrency cloud environments suited for continuous iteration.
+              </p>
+            </div>
+
+            <div class="feature-col">
+              <div class="feature-col-header">
+                <span class="material-symbols-outlined feature-col-icon">handshake</span>
+                <h4 class="heading-sm">Engineering Collaboration</h4>
+              </div>
+              <p class="body-sm">
+                Direct technical communication, milestone demonstrations, transparent code tracking, and dedicated project management.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. OUR SERVICES SECTION
+         ====================================================================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center">
+          <span class="tag-label">OUR CORE CAPABILITIES</span>
+          <h2 class="heading-lg">Services Tailored for Modern Enterprise Demands</h2>
+          <p class="body-lead">
+            Comprehensive technical execution across the entire digital lifecycle, engineered to deliver tangible return on investment.
+          </p>
+        </div>
+
+        <!-- 3 Capability Cards -->
+        <div class="services-grid">
+          <!-- Service 1: Website Development -->
+          <div class="service-card reveal-item">
+            <div>
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <span class="material-symbols-outlined" style="font-size: 30px;">web</span>
+                </div>
+                <span class="service-tag">CAP-01</span>
+              </div>
+              <h3 class="heading-md service-title">Website Development</h3>
+              <p class="body-normal service-desc">
+                Professional, responsive, user-focused websites built with cutting-edge front-end architectures and optimized for performance, accessibility, and conversion.
+              </p>
+
+              <div class="deliverables-header">Key Deliverables:</div>
+              <ul class="deliverables-list">
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>High-performance web apps &amp; landing architectures</span>
+                </li>
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>Responsive, accessibility-first design systems</span>
+                </li>
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>Core Web Vitals &amp; SEO speed optimization</span>
+                </li>
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>Secure headless CMS integrations</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <a href="#contact" class="service-link" data-service="web">
+                <span>Discuss Web Requirements</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 2: Custom Software Development -->
+          <div class="service-card reveal-item">
+            <div>
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <span class="material-symbols-outlined" style="font-size: 30px;">deployed_code</span>
+                </div>
+                <span class="service-tag">CAP-02</span>
+              </div>
+              <h3 class="heading-md service-title">Custom Software Development</h3>
+              <p class="body-normal service-desc">
+                Tailored software solutions designed around your unique business workflows, enterprise system integrations, and mission-critical reliability.
+              </p>
+
+              <div class="deliverables-header">Key Deliverables:</div>
+              <ul class="deliverables-list">
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>Bespoke enterprise internal tooling &amp; portals</span>
+                </li>
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>Scalable REST &amp; GraphQL microservices</span>
+                </li>
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>High-availability relational &amp; NoSQL schema design</span>
+                </li>
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>Legacy enterprise system modernization</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <a href="#contact" class="service-link" data-service="custom-software">
+                <span>Discuss Custom Software</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 3: AI & Automation -->
+          <div class="service-card reveal-item">
+            <div>
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <span class="material-symbols-outlined" style="font-size: 30px;">auto_mode</span>
+                </div>
+                <span class="service-tag">CAP-03</span>
+              </div>
+              <h3 class="heading-md service-title">AI &amp; Automation</h3>
+              <p class="body-normal service-desc">
+                Intelligent automation to streamline complex operational workflows, eliminate manual data overhead, and accelerate day-to-day business speed.
+              </p>
+
+              <div class="deliverables-header">Key Deliverables:</div>
+              <ul class="deliverables-list">
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>End-to-end business process orchestration</span>
+                </li>
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>System integration &amp; automated middleware</span>
+                </li>
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>Intelligent document ingestion &amp; transformation</span>
+                </li>
+                <li class="deliverables-item">
+                  <span class="material-symbols-outlined deliverable-check">done</span>
+                  <span>Real-time synchronization pipelines</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <a href="#contact" class="service-link" data-service="automation">
+                <span>Discuss Automation</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. OUR PROCESS SECTION
+         ====================================================================== -->
+    <section class="section section-alt" id="process">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="tag-label">METHODOLOGY</span>
+          <h2 class="heading-lg">How We Bring Ideas to Life.</h2>
+          <p class="body-lead">
+            A disciplined, engineering-first delivery model engineered for predictability, transparency, and high software quality.
+          </p>
+        </div>
+
+        <!-- 5 Steps Grid -->
+        <div class="process-grid">
+          <!-- Step 01 -->
+          <div class="process-card reveal-item">
+            <div>
+              <div class="process-top">
+                <span class="process-num">01</span>
+                <span class="material-symbols-outlined process-icon">manage_search</span>
+              </div>
+              <h3 class="heading-sm process-title">Discover</h3>
+              <p class="body-sm process-body">
+                Understand business goals, team workflows, and core technical requirements through structured technical analysis.
+              </p>
+            </div>
+            <div class="process-footer">
+              <span class="process-dot"></span>
+              <span class="process-phase">Phase 1 • Scope Spec</span>
+            </div>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="process-card reveal-item">
+            <div>
+              <div class="process-top">
+                <span class="process-num">02</span>
+                <span class="material-symbols-outlined process-icon">design_services</span>
+              </div>
+              <h3 class="heading-sm process-title">Plan &amp; Design</h3>
+              <p class="body-sm process-body">
+                Develop resilient system architecture, user journeys, responsive wireframes, and secure database schemas.
+              </p>
+            </div>
+            <div class="process-footer">
+              <span class="process-dot"></span>
+              <span class="process-phase">Phase 2 • Architecture</span>
+            </div>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="process-card reveal-item">
+            <div>
+              <div class="process-top">
+                <span class="process-num">03</span>
+                <span class="material-symbols-outlined process-icon">code_blocks</span>
+              </div>
+              <h3 class="heading-sm process-title">Develop</h3>
+              <p class="body-sm process-body">
+                Build robust, production-grade solutions following modern clean-code standards and continuous integration.
+              </p>
+            </div>
+            <div class="process-footer">
+              <span class="process-dot"></span>
+              <span class="process-phase">Phase 3 • Build Cycle</span>
+            </div>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="process-card reveal-item">
+            <div>
+              <div class="process-top">
+                <span class="process-num">04</span>
+                <span class="material-symbols-outlined process-icon">flaky</span>
+              </div>
+              <h3 class="heading-sm process-title">Test</h3>
+              <p class="body-sm process-body">
+                Comprehensive review of functionality, responsive viewport fidelity, security vulnerabilities, and raw performance.
+              </p>
+            </div>
+            <div class="process-footer">
+              <span class="process-dot"></span>
+              <span class="process-phase">Phase 4 • QA Validation</span>
+            </div>
+          </div>
+
+          <!-- Step 05 -->
+          <div class="process-card reveal-item">
+            <div>
+              <div class="process-top">
+                <span class="process-num">05</span>
+                <span class="material-symbols-outlined process-icon">task_alt</span>
+              </div>
+              <h3 class="heading-sm process-title">Deliver</h3>
+              <p class="body-sm process-body">
+                Deploy reliable solutions to production with thorough engineering documentation and ongoing technical support readiness.
+              </p>
+            </div>
+            <div class="process-footer">
+              <span class="process-dot"></span>
+              <span class="process-phase">Phase 5 • Go-Live</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. WHY CHOOSE US SECTION
+         ====================================================================== -->
+    <section class="section" id="why-us">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center">
+          <span class="tag-label">VALUE PROPOSITION</span>
+          <h2 class="heading-lg">Why Businesses Partner With Stuzen</h2>
+          <p class="body-lead">
+            Focused on long-term value, technical precision, and tangible operational outcomes.
+          </p>
+        </div>
+
+        <!-- 6 Value Grid -->
+        <div class="why-us-grid">
+          <!-- Card 1 -->
+          <div class="why-card reveal-item">
+            <div>
+              <span class="material-symbols-outlined why-icon">trending_up</span>
+              <h3 class="heading-sm why-title">Business-Focused Solutions</h3>
+              <p class="body-normal why-body">
+                Software engineering strictly aligned with practical ROI and clear organizational goals rather than technological hype.
+              </p>
+            </div>
+            <div class="why-metric">Focus // Strategic ROI</div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="why-card reveal-item">
+            <div>
+              <span class="material-symbols-outlined why-icon">engineering</span>
+              <h3 class="heading-sm why-title">Professional Development Approach</h3>
+              <p class="body-normal why-body">
+                Industry-standard engineering discipline, clean code conventions, regular code reviews, and transparent milestone tracking.
+              </p>
+            </div>
+            <div class="why-metric">Standard // Clean Code Standards</div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="why-card reveal-item">
+            <div>
+              <span class="material-symbols-outlined why-icon">code_blocks</span>
+              <h3 class="heading-sm why-title">Modern Technology Stack</h3>
+              <p class="body-normal why-body">
+                Leveraging battle-tested modern frameworks, containerized environments, and resilient cloud-native architectures.
+              </p>
+            </div>
+            <div class="why-metric">Architecture // Resilient Cloud Native</div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="why-card reveal-item">
+            <div>
+              <span class="material-symbols-outlined why-icon">sentiment_satisfied</span>
+              <h3 class="heading-sm why-title">User-Friendly Experiences</h3>
+              <p class="body-normal why-body">
+                Intuitive, accessible interfaces designed directly for real day-to-day user workflows, reducing cognitive friction.
+              </p>
+            </div>
+            <div class="why-metric">Design // Workflow Ergonomics</div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="why-card reveal-item">
+            <div>
+              <span class="material-symbols-outlined why-icon">verified_user</span>
+              <h3 class="heading-sm why-title">Quality-Focused Delivery</h3>
+              <p class="body-normal why-body">
+                Strict automated and manual testing protocols covering cross-browser rendering, edge cases, and high-load security.
+              </p>
+            </div>
+            <div class="why-metric">Testing // Rigorous QA Protocol</div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="why-card reveal-item">
+            <div>
+              <span class="material-symbols-outlined why-icon">upgrade</span>
+              <h3 class="heading-sm why-title">Scalable &amp; Future-Proof</h3>
+              <p class="body-normal why-body">
+                Modular foundations designed to adapt smoothly as business complexity, team operations, and user volume expand over time.
+              </p>
+            </div>
+            <div class="why-metric">Systems // Zero-Friction Scale</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. CONTACT US SECTION
+         ====================================================================== -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Left Column: Channel Details & Commitments -->
+          <div class="contact-info-col">
+            <div>
+              <span class="tag-label">GET IN TOUCH</span>
+              <h2 class="heading-lg">Let's Build Something Great Together.</h2>
+              <p class="body-lead" style="margin-top: 1rem;">
+                Have a project in mind? Tell us about your technical specifications and requirements, and let's discuss how our engineering team can assist.
+              </p>
+
+              <!-- Direct Channels -->
+              <div class="contact-channels">
+                <!-- Email -->
+                <div class="channel-item">
+                  <div class="channel-icon-box">
+                    <span class="material-symbols-outlined" style="font-size: 20px;">mail</span>
+                  </div>
+                  <div>
+                    <p class="channel-label">Email Inquiries</p>
+                    <a href="mailto:info@stuzen.example.com" class="channel-val">info@stuzen.example.com</a>
+                  </div>
+                </div>
+
+                <!-- Phone -->
+                <div class="channel-item">
+                  <div class="channel-icon-box">
+                    <span class="material-symbols-outlined" style="font-size: 20px;">call</span>
+                  </div>
+                  <div>
+                    <p class="channel-label">Direct Phone</p>
+                    <a href="tel:+15550198234" class="channel-val">+1 (555) 019-8234</a>
+                  </div>
+                </div>
+
+                <!-- WhatsApp -->
+                <div class="channel-item">
+                  <div class="channel-icon-box">
+                    <span class="material-symbols-outlined" style="font-size: 20px;">chat</span>
+                  </div>
+                  <div>
+                    <p class="channel-label">WhatsApp Direct</p>
+                    <a href="https://wa.me/15550198235?text=Hello%20Stuzen%20Technologies%2C%20I%20would%20like%20to%20discuss%20a%20project" target="_blank" rel="noopener noreferrer" class="channel-val">+1 (555) 019-8235</a>
+                    <span class="channel-sub">Engineering support channel available</span>
+                  </div>
+                </div>
+
+                <!-- Location -->
+                <div class="channel-item">
+                  <div class="channel-icon-box">
+                    <span class="material-symbols-outlined" style="font-size: 20px;">location_on</span>
+                  </div>
+                  <div>
+                    <p class="channel-label">Office Location</p>
+                    <p class="channel-val" style="font-weight: 500;">Tech Innovation District, Suite 400</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review Notice Box -->
+            <div class="review-notice-box">
+              <div class="review-notice-title">
+                <span class="material-symbols-outlined" style="font-size: 18px;">schedule</span>
+                <span>Engineering Assessment</span>
+              </div>
+              <p class="body-sm">
+                All inquiries receive dedicated review from our engineering lead during standard business hours.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: Project Specification Form -->
+          <div class="contact-form-card">
+            <div class="form-header">
+              <h3 class="heading-md form-title">Project Specification Form</h3>
+              <p class="body-sm">Provide initial project parameters to initiate architectural discussion.</p>
+            </div>
+
+            <form id="contact-form" novalidate>
+              <!-- Row 1: Full Name & Work Email -->
+              <div class="form-grid form-grid-2">
+                <div class="form-group">
+                  <label for="fullName" class="form-label">Full Name *</label>
+                  <input type="text" id="fullName" class="form-input" placeholder="e.g. Alex Henderson" required>
+                  <span class="field-error-msg">Please enter your full name.</span>
+                </div>
+                <div class="form-group">
+                  <label for="emailAddr" class="form-label">Work Email *</label>
+                  <input type="email" id="emailAddr" class="form-input" placeholder="alex@company.com" required>
+                  <span class="field-error-msg">Please enter a valid work email address.</span>
+                </div>
+              </div>
+
+              <!-- Row 2: Phone & Capability -->
+              <div class="form-grid form-grid-2">
+                <div class="form-group">
+                  <label for="phoneNum" class="form-label">Phone / WhatsApp</label>
+                  <input type="tel" id="phoneNum" class="form-input" placeholder="+1 (555) 000-0000">
+                </div>
+                <div class="form-group">
+                  <label for="serviceReq" class="form-label">Capability Required *</label>
+                  <select id="serviceReq" class="form-select" required>
+                    <option value="" disabled selected>Select an area of interest</option>
+                    <option value="web">Website Development</option>
+                    <option value="custom-software">Custom Software Development</option>
+                    <option value="automation">AI &amp; Automation</option>
+                    <option value="consultation">Enterprise Architecture Consultation</option>
+                  </select>
+                  <span class="field-error-msg">Please select an engineering capability.</span>
+                </div>
+              </div>
+
+              <!-- Row 3: Project Message -->
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="projectMsg" class="form-label">Project Overview &amp; Requirements *</label>
+                  <textarea id="projectMsg" class="form-textarea" placeholder="Describe your operational goals, existing tech stack, and timeline..." rows="4" required></textarea>
+                  <span class="field-error-msg">Please provide a brief overview (min 10 characters).</span>
+                </div>
+              </div>
+
+              <!-- Row 4: Privacy Consent -->
+              <label class="consent-wrapper" for="privacyConsent">
+                <input type="checkbox" id="privacyConsent" class="consent-checkbox" required>
+                <span class="consent-text">
+                  I agree to have Stuzen Technologies review and store this enquiry in accordance with their privacy policy.
+                </span>
+              </label>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-submit-full">
+                <span>Submit Technical Enquiry</span>
+                <span class="material-symbols-outlined btn-icon">send</span>
+              </button>
+
+              <!-- Success Feedback Banner -->
+              <div id="form-success-banner" class="form-success-banner" role="alert">
+                <span class="material-symbols-outlined" style="font-size: 24px; color: #10b981;">check_circle</span>
+                <div>
+                  <h4 style="font-family: var(--font-display); font-size: 0.9375rem; font-weight: 600; color: #10b981; margin-bottom: 2px;">Technical Specification Received</h4>
+                  <p style="font-size: 0.8125rem; color: var(--color-text-secondary); line-height: 1.4;">
+                    Thank you for your submission. An engineering lead will review your project parameters and follow up shortly.
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       8. FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Tagline -->
+        <div class="footer-col-brand">
+          <a href="#home" class="brand" aria-label="STUZEN TECHNOLOGIES">
+            <img src="assets/logo/stuzen-logo.png" alt="STUZEN Logo" class="brand-logo-img">
+            <span class="brand-text">STUZEN</span>
+          </a>
+          <p class="footer-tagline">Learn. Build. Innovate.</p>
+          <p class="body-sm footer-desc">
+            Stuzen Technologies is an enterprise technology provider delivering high-impact web development, custom software engineering, and business automation.
+          </p>
+          <div class="footer-socials">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+              <span class="material-symbols-outlined" style="font-size: 18px;">share</span>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+              <span class="material-symbols-outlined" style="font-size: 18px;">terminal</span>
+            </a>
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="X Platform">
+              <span class="material-symbols-outlined" style="font-size: 18px;">public</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Us</a></li>
+            <li><a href="#services" class="footer-link">Services</a></li>
+            <li><a href="#process" class="footer-link">Our Process</a></li>
+            <li><a href="#why-us" class="footer-link">Why Choose Us</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Solutions & Services -->
+        <div>
+          <h4 class="footer-col-title">Solutions &amp; Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="#services" class="footer-link">Website Development</a></li>
+            <li><a href="#services" class="footer-link">Custom Software Development</a></li>
+            <li><a href="#services" class="footer-link">AI &amp; Automation</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Corporate Office -->
+        <div>
+          <h4 class="footer-col-title">Corporate Office</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <span class="material-symbols-outlined footer-contact-icon">mail</span>
+              <span>info@stuzen.example.com</span>
+            </li>
+            <li class="footer-contact-item">
+              <span class="material-symbols-outlined footer-contact-icon">call</span>
+              <span>+1 (555) 019-8234</span>
+            </li>
+            <li class="footer-contact-item">
+              <span class="material-symbols-outlined footer-contact-icon">chat</span>
+              <a href="https://wa.me/15550198235" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp: Connect with Engineering</a>
+            </li>
+            <li class="footer-contact-item">
+              <span class="material-symbols-outlined footer-contact-icon">location_on</span>
+              <span>Corporate Tech Park, Global Gateway</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <p>© 2025 Stuzen Technologies. All rights reserved.</p>
+        <div class="footer-legal-links">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Security Architecture</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
